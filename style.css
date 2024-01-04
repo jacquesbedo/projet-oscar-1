@@ -68,6 +68,18 @@
 .partie2 p
 {
     font-size: 15px;
-    margin: 0 40em 5em 40em;
+    margin: 0 30em 5em 30em;
     line-height: 2.1;
+}
+.partie2 ul
+{
+    display: flex;
+    justify-content: center;
+}
+.partie2 li 
+{
+    pmargin: 150px;
+    list-style: none;
+    font-size: 16px;
+    border: 1px solid black;
 }
