@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* premiere partie */
+
+/* position de l image */
+.partie1
+{
+    position: relative;
+    text-align: center;
+}
+/* formatage de la liste a puce */
+.partie1 ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 5vh ;
+    right: 8vw;
+    display: flex;
+}
+.partie1 li
+{
+    margin: 0 35px;
+    padding-bottom: 10px;
+    position: relative;
+    /* display: inline-block; */
+    cursor: pointer;
+}
+.partie1 a 
+{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+/* le fait de survoler */
+.partie1 li:hover::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px; /* Épaisseur du trait */
+    background-color: white; /* Couleur du trait */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out; /* Durée et style de transition */
+   }
+.partie1 li:hover::before
+{
+    visibility: visible;
+    transform: scaleX(1); 
+}
+
+/* deuxieme partie  */
+.partie2
+{
+    text-align: center;
+
+}
+.partie2 h2
+{
+    padding: 55px; 
+}
+.partie2 p
+{
+    font-size: 15px;
+    margin: 0 40em 5em 40em;
+    line-height: 2.1;
+}
