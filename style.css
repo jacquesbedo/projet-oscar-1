@@ -72,28 +72,8 @@
     margin: 0 30em 5em 30em;
     line-height: 2.1;
 }
-.partie2 ul
+.partie2 button
 {
-    display: flex;
-    justify-content: center;
-}
-.partie2 li 
-{
-    
-    margin: 40px 30px 40px 30px ;
-    padding: 25px 35px 25px 35px;
-    list-style: none;
-    font-size: 16px;
-    border: 1px solid rgb(0, 151, 45);
-    border-collapse: separate;
-}
-.partie2 a
-{
-    color: rgb(0, 151, 45);
-    text-decoration:none;
-}
-.partie2 li:hover
-{
-    background-color: rgb(0, 151, 45);
-    
+    display: inline-flex;
+    font-size: 29px;
 }
