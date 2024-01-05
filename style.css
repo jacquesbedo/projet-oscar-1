@@ -37,7 +37,8 @@
     text-decoration: none;
 }
 /* le fait de survoler */
-.partie1 li:hover::before {
+.partie1 li:hover::before 
+{
     content: "";
     position: absolute;
     bottom: 0;
@@ -90,4 +91,9 @@
 {
     color: rgb(0, 151, 45);
     text-decoration:none;
+}
+.partie2 li:hover
+{
+    background-color: rgb(0, 151, 45);
+    
 }
