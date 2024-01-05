@@ -83,6 +83,7 @@
     padding: 25px 35px 25px 35px;
     list-style: none;
     font-size: 16px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 151, 45);
+    color: rgb(0, 151, 45);;
     border-collapse: separate;
 }
