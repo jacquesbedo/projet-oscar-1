@@ -75,5 +75,15 @@
 .partie2 button
 {
     display: inline-flex;
-    font-size: 29px;
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    margin: 5px 15px;
+    color: #2bb800;
+    background-color: white;
+    border: #2bb800 solid 1px;
+}
+.partie2 button:hover
+{
+    color: white;
+    background-color: #2bb800;
 }
