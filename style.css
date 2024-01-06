@@ -12,6 +12,7 @@
     text-align: center;
 }
 /* formatage de la liste a puce */
+
 .partie1 ul
 {
     list-style: none;
@@ -39,6 +40,7 @@
     text-decoration: none;
 }
 /* le fait de survoler */
+
 .partie1 li:hover::before 
 {
     content: "";
