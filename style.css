@@ -27,7 +27,9 @@
     margin: 0 35px;
     padding-bottom: 10px;
     position: relative;
-    /* display: inline-block; */
+
+/* display: inline-block; */
+
     cursor: pointer;
 }
 .partie1 a 
